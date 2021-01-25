@@ -1,7 +1,6 @@
 [Unit]
 Description=HedgeDoc: Trilium Server
-Documentation=https://github.com/hedgedoc/hedgedoc
- After=network.target 
+After=network.target 
 
 [Service]
 Type=simple
@@ -11,7 +10,7 @@ WorkingDirectory=__FINALPATH__
 Environment="PATH=__ENV_PATH__"
 Environment="NODE_ENV=production"
 ExecStart=__FINALPATH__ start -a trilium
- ExecStop=__FINALPATH__ stop -t 2 trilium
+ExecStop=__FINALPATH__ stop -t 2 trilium
 Restart=always
 PrivateTmp=true
 PrivateDevices=true
