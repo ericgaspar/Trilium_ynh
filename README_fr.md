@@ -1,21 +1,21 @@
-# HedgeDoc pour YunoHost
+# Trilium pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/hedgedoc.svg)](https://dash.yunohost.org/appci/app/hedgedoc) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.maintain.svg)  
-[![Installer HedgeDoc avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hedgedoc)
+[![Installer Trilium avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hedgedoc)
 
 *[Read this readme in english.](./README.md)* 
 
-> *Ce package vous permet d'installer HedgeDoc rapidement et simplement sur un serveur YunoHost.  
+> *Ce package vous permet d'installer Trilium rapidement et simplement sur un serveur YunoHost.  
 Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
 
 ## Vue d'ensemble
 HedgeDoc est un service web de traitement de texte collaboratif en temps réel. Il utilise le langage Markdown.
 
-**Version incluse :** 1.7.2
+**Version incluse :** 0.45.8
 
 ## Captures d'écran
 
-![](https://demo.hedgedoc.org/screenshot.png)
+![](https://raw.githubusercontent.com/wiki/zadam/trilium/images/screenshot.png)
 
 ## Démo
 

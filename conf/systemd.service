@@ -1,7 +1,7 @@
 [Unit]
-Description=HedgeDoc: collaborative Markdown notes
+Description=HedgeDoc: Trilium Server
 Documentation=https://github.com/hedgedoc/hedgedoc
-After=network.target postgresql.service
+ After=network.target 
 
 [Service]
 Type=simple
@@ -10,7 +10,8 @@ Group=__APP__
 WorkingDirectory=__FINALPATH__
 Environment="PATH=__ENV_PATH__"
 Environment="NODE_ENV=production"
-ExecStart=__YNH_NPM__ start --production
+ExecStart=__FINALPATH__ start -a trilium
+ ExecStop=__FINALPATH__ stop -t 2 trilium
 Restart=always
 PrivateTmp=true
 PrivateDevices=true

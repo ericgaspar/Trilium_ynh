@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/hedgedoc/hedgedoc/releases/download/1.7.2/hedgedoc-1.7.2.tar.gz
-SOURCE_SUM=8bb66ba9c839a4d81f72267b91a201f97a48f16aa95434586d6dd6be40502d6d
+SOURCE_URL=https://github.com/zadam/trilium/archive/v0.45.8.tar.gz
+SOURCE_SUM=25923000cf8243a3404ca39ad11c250a2b9570e3a480b69a77021ff1a96b12f9
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
