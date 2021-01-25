@@ -1,5 +1,5 @@
 [Unit]
-Description=HedgeDoc: Trilium Server
+Description=Trilium Server
 After=network.target 
 
 [Service]

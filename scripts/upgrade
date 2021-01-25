@@ -22,10 +22,6 @@ is_public=$(ynh_app_setting_get --app=$app --key=is_public)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 port=$(ynh_app_setting_get --app=$app --key=port)
 
-db_name=$(ynh_app_setting_get --app=$app --key=db_name)
-db_user=$db_name
-db_pwd=$(ynh_app_setting_get --app=$app --key=db_pwd)
-
 #=================================================
 # CHECK VERSION
 #=================================================
@@ -173,7 +169,7 @@ chown -R $app: $final_path
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..." --weight=2
 
-yunohost service add $app --description="Collaborative Markdown editor" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Note taking application" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

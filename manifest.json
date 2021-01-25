@@ -3,14 +3,14 @@
     "id": "trilium",
     "packaging_format": 1,
     "description": {
-        "en": "Hierarchical note taking application with focus on building large personal knowledge bases",
-        "fr": ""
+        "en": "Hierarchical note taking application with focus on building large personal knowledge bases.",
+        "fr": "Application de prise de notes hiérarchique axée sur la création de grandes bases de connaissances personnelles."
     },
     "version": "0.45.8~ynh1",
     "url": "https://github.com/zadam/trilium",
     "license": "AGPL-3.0-only",
     "maintainer": {
-        "name": "eric_G"
+        "name": ""
     },
     "requirements": {
         "yunohost": ">= 4.0.0"

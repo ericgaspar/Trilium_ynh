@@ -19,17 +19,14 @@ Trilium Notes is a hierarchical note taking application with focus on building l
 
 ## Demo
 
-* [Official demo](https://demo.hedgedoc.org/)
+* [Official demo]()
 
 ## Configuration
 
-You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` using the [documentation](https://github.com/hedgedoc/hedgedoc/blob/master/docs/configuration.md)  
-When you finished editing the configuration, for your changes to take effect, you will have to run: `sudo systemctl restart hedgedoc`.
-
 ## Documentation
 
- * Official documentation: https://github.com/hedgedoc/hedgedoc/tree/master/docs
- * YunoHost documentation: https://yunohost.org/#/app_hedgedoc
+ * Official documentation: https://github.com/zadam/trilium/wiki
+ * YunoHost documentation: https://yunohost.org/#/app_trilium
 
 ## YunoHost specific features
 
@@ -45,13 +42,10 @@ When you finished editing the configuration, for your changes to take effect, yo
 
 ## Limitations
 
-* HedgeDoc needs more than 3 GB of RAM to build.
-
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/trilium_ynh/issues
- * App website: https://github.com/zadam/trilium
- * Upstream app repository: https://github.com/hedgedoc/hedgedoc
+ * Upstream app repository: https://github.com/zadam/trilium
  * YunoHost website: https://yunohost.org/
 
 ---

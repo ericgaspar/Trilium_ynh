@@ -1,7 +1,7 @@
 # Trilium pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/hedgedoc.svg)](https://dash.yunohost.org/appci/app/hedgedoc) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.maintain.svg)  
-[![Installer Trilium avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hedgedoc)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/trilium.svg)](https://dash.yunohost.org/appci/app/trilium) ![](https://ci-apps.yunohost.org/ci/badges/trilium.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/trilium.maintain.svg)  
+[![Installer Trilium avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=trilium)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -9,7 +9,7 @@
 Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
 
 ## Vue d'ensemble
-HedgeDoc est un service web de traitement de texte collaboratif en temps réel. Il utilise le langage Markdown.
+Trilium Notes est une application de prise de notes hiérarchique axée sur la création de grandes bases de connaissances personnelles.
 
 **Version incluse :** 0.45.8
 
@@ -19,17 +19,14 @@ HedgeDoc est un service web de traitement de texte collaboratif en temps réel. 
 
 ## Démo
 
-* [Démo officielle](https://demo.hedgedoc.org/)
+* [Démo officielle]()
 
 ## Configuration
 
-Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/config.json` et en vous aidant de la [documentation](https://github.com/hedgedoc/hedgedoc/blob/master/docs/configuration.md)  
-Lorsque vous avez terminé de modifier la configuration, pour que vos modifications prennent effet, vous devrez exécuter : `sudo systemctl restart hedgedoc`.
-
 ## Documentation
 
- * Documentation officielle : https://github.com/hedgedoc/hedgedoc/tree/master/docs
- * Documentation YunoHost : https://yunohost.org/#/app_hedgedoc_fr
+ * Documentation officielle : https://github.com/zadam/trilium/wiki
+ * Documentation YunoHost : https://yunohost.org/#/app_trilium_fr
 
 ## Caractéristiques spécifiques YunoHost
 
@@ -40,29 +37,26 @@ Lorsque vous avez terminé de modifier la configuration, pour que vos modificati
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/hedgedoc%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/hedgedoc/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/hedgedoc%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/hedgedoc/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/trilium%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/trilium/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/trilium%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/trilium/)
 
 ## Limitations
 
-* HedgeDoc a besoin de plus de 3 Go de RAM pour être installé.
-
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/hedgedoc_ynh/issues
- * Site de l'application : https://hedgedoc.org
- * Dépôt de l'application principale : https://github.com/hedgedoc/hedgedoc
+ * Signaler un bug : https://github.com/YunoHost-Apps/trilium_ynh/issues
+ * Dépôt de l'application principale : https://github.com/zadam/trilium
  * Site web YunoHost : https://yunohost.org/
 
 ---
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/hedgedoc_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/trilium_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/hedgedoc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/trilium_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade hedgedoc -u https://github.com/YunoHost-Apps/hedgedoc_ynh/tree/testing --debug
+sudo yunohost app upgrade trilium -u https://github.com/YunoHost-Apps/trilium_ynh/tree/testing --debug
 ```
