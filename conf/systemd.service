@@ -9,8 +9,7 @@ Group=__APP__
 WorkingDirectory=__FINALPATH__
 Environment="PATH=__ENV_PATH__"
 Environment="NODE_ENV=production"
-ExecStart=__FINALPATH__ start -a trilium
-ExecStop=__FINALPATH__ stop -t 2 trilium
+ExecStart=__FINALPATH__ start src/www &
 Restart=always
 PrivateTmp=true
 PrivateDevices=true

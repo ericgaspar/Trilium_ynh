@@ -102,10 +102,10 @@ ynh_system_user_create --username=$app --home_dir=$final_path
 #==============================================
 ynh_script_progression --message="Building Trilium... (this will take some time and resources!)" --weight=20
 
-pushd "$final_path" || ynh_die
+pushd $final_path
 	ynh_use_nodejs
-	npm install # download all node dependencies
-popd || ynh_die
+	ynh_exec_warn_less npm install --allow-root
+popd
 
 #=================================================
 # SETUP SYSTEMD
